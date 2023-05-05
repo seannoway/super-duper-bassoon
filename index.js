@@ -21,28 +21,28 @@ const questions = [
   {
     type: 'input',
     message: 'instalattion instructions',
-    name: 'installation instructions',
+    name: 'installation',
   },
   {
     type: 'input',
     message: 'Usage Information',
-    name: 'usage information',
+    name: 'usage',
   },
   {
     type: 'input',
     message: 'contribution guidelines',
-    name: 'contribution guidelines',
+    name: 'contribution',
   },
   {
     type: 'input',
     message: 'test instructions',
-    name: 'test instructions',
+    name: 'test',
   },
   {
     type: 'list',
     message: 'What license are you using?',
-    name: 'License',
-    choices: ["this", "that", "the other"]
+    name: 'license',
+    choices: ["", "that", "the other"]
   },
   {
     type: 'input',
